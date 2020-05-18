@@ -35,9 +35,7 @@ public class Summary extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent s = new Intent(Summary.this, MainActivity.class);
-
-                startActivity(s);
+                finish()
 
             }
         });
